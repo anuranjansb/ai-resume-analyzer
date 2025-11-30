@@ -85,13 +85,16 @@ CSS3	Styling & layout
 JavaScript (ES6)	Resume analysis logic
 Git + GitHub	Version control & portfolio showcase
 # 📁 Project Structure
+```
 ai-resume-analyzer/
 │
 ├── index.html      # UI layout
 ├── style.css       # Styling
 ├── script.js       # Resume analysis logic
-└── images          # Screenshots 
-
+└── images
+		└── home.png
+		└── result.png        
+```
 # 📦 Installation & Usage
 1. Clone the repository
 git clone https://github.com/anuranjansb/ai-resume-analyzer.git
