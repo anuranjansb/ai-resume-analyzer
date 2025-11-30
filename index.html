@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>AI Resume Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>AI Resume Analyzer</h1>
+
+        <label for="role">Select Role:</label>
+        <select id="role">
+            <option value="sde">SDE / Software Developer</option>
+            <option value="web">Web Developer</option>
+            <option value="ml">Machine Learning</option>
+        </select>
+
+        <label for="resume">Paste Your Resume Text:</label>
+        <textarea id="resume" placeholder="Paste your resume here..."></textarea>
+
+        <button id="analyzeBtn">Analyze Resume</button>
+
+        <div id="result" class="hidden">
+            <h2>Analysis Result</h2>
+            <p id="scoreLine"></p>
+
+            <h3>Matched Skills</h3>
+            <ul id="matchedSkills"></ul>
+
+            <h3>Missing Skills</h3>
+            <ul id="missingSkills"></ul>
+
+            <h3>Suggestions</h3>
+            <p id="suggestions"></p>
+        </div>
+    </div>
+
+    <!-- Load your script after HTML -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
